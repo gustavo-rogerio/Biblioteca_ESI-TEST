@@ -1,0 +1,15 @@
+Complexidade de Código: À medida que um software cresce em complexidade, torna-se mais difícil cobrir todas as linhas de código, caminhos e combinações possíveis. Alguns cenários raros ou condições extremas podem ser negligenciados.
+
+Recursos Externos: Se o seu software depende de recursos externos, como bancos de dados ou serviços da web, é difícil simular todos os estados possíveis desses recursos em testes, devido à sua dinamicidade e à falta de controle total.
+
+Tempo e Recursos Limitados: Em projetos do mundo real, o tempo e os recursos para escrever testes são limitados. Concentrar-se na cobertura de código crítico é mais eficiente do que tentar cobrir todas as partes do código.
+
+Bibliotecas de Terceiros: Se o seu software utiliza bibliotecas de terceiros, você não tem controle sobre o código dessas bibliotecas e, portanto, não pode garantir uma cobertura completa.
+
+Interação do Usuário: Testar interações de usuário em interfaces gráficas é desafiador, uma vez que os cenários possíveis são vastos e difíceis de prever.
+
+Tratamento de Erros Impraticável: Testar todos os cenários de erros pode ser impraticável. Além disso, alguns erros podem ser difíceis de reproduzir em ambientes de teste.
+
+Mudanças Constantes: À medida que o software evolui, a lógica subjacente muda. Isso requer a atualização constante dos testes existentes e a escrita de novos testes.
+
+Testes de Baixo Valor: Alguns trechos de código podem não justificar o esforço necessário para escrever testes, especialmente se forem simples ou altamente improváveis de causar problemas.
